@@ -10,3 +10,4 @@ The script `write.py` should be run first in order to generate `.beton` files.
 
 ![](figures/fig4.png)
 ![](figures/fig5.png)
+![](figures/fig20.png)
