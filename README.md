@@ -5,6 +5,8 @@ The code for this work is organized as a series of standalone Jupyter Notebooks.
 * [ResNet20](notebooks/Train-and-Permute-CIFAR10-ResNet20.ipynb)
 * [VGG11](notebooks/Train-and-Permute-CIFAR10-VGG11.ipynb)
 * [VGG11 with BatchNorm](notebooks/Train-and-Permute-CIFAR10-VGG11-BatchNorm.ipynb)
+* [MLP](notebooks/Train-and-Permute-MNIST-MLP-NoBatchNorm.ipynb)
+* [MLP with BatchNorm](notebooks/Train-and-Permute-MNIST-MLP-BatchNorm.ipynb)
 
 
 Abstract:
