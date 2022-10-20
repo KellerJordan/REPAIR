@@ -7,6 +7,7 @@ The code for this work is organized as a series of standalone Jupyter Notebooks.
 * [VGG11 with BatchNorm](notebooks/Train-and-Permute-CIFAR10-VGG11-BatchNorm.ipynb)
 * [MLP](notebooks/Train-and-Permute-MNIST-MLP-NoBatchNorm.ipynb)
 * [MLP with BatchNorm](notebooks/Train-and-Permute-MNIST-MLP-BatchNorm.ipynb)
+* [ResNet50 trained on ImageNet](notebooks/Permute-ImageNet-ResNet50.ipynb)
 
 
 Abstract:
