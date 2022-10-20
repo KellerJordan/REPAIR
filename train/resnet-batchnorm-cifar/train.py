@@ -60,12 +60,12 @@ def main():
         print('Acc=%.2f%%' % (evaluate(model, loader=test_loader)/100))
 
     sd = model.state_dict()
-    torch.save(sd, './checkpoints/layernorm_resnet20x%d_e%d_%s.pt' % (args.width, args.epochs, str(uuid.uuid4())))
+    torch.save(sd, './checkpoints/batchnorm_resnet20x%d_e%d_%s.pt' % (args.width, args.epochs, str(uuid.uuid4())))
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--width', type=int, default=1)
-parser.add_argument('--epochs', type=int, default=250)
-parser.add_argument('--lr', type=float, default=0.1)
+parser.add_argument('--epochs', type=int, default=200)
+parser.add_argument('--lr', type=float, default=0.4)
 if __name__ == '__main__':
     args = parser.parse_args()
     main()

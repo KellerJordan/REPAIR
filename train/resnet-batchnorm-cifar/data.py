@@ -28,7 +28,7 @@ def get_loaders(device_id=0):
     ]
 
     train_aug_loader = Loader(f'/tmp/cifar_train.beton',
-                          batch_size=100,
+                          batch_size=500,
                           num_workers=8,
                           order=OrderOption.RANDOM,
                           drop_last=True,
