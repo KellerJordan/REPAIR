@@ -1,4 +1,4 @@
-# Linear mode connectivity of deep neural networks via permutation invariance and renormalization
+# REPAIR: REnormalizing Permuted Activations for Interpolation Repair
 
 The code for this work is organized as a series of standalone Jupyter Notebooks.
 
