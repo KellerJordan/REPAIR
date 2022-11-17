@@ -1,5 +1,6 @@
 # REPAIR: REnormalizing Permuted Activations for Interpolation Repair
 
+![vgg](figures/vgg_twtr2.png)
 ![repair](figures/relative_twtr2.png)
 
 Code release for [REPAIR: REnormalizing Permuted Activations for Interpolation Repair](https://arxiv.org/abs/2211.08403).
